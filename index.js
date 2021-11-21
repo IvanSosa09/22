@@ -34,8 +34,17 @@ io.on("connection", (socket) => {
     //ENVIO DE USUARIOS Y MENSAJES DESDE LA BASE DE DATOS
   const EnviarData = async () => {
     let obj = await Model.find();
+
+    const autorSchema = new schema.Entity("autor",{
+      user:obj
+    });
+    const postSchema = new schema.Entity("autores",{
+        autor:autorSchema
+    })
+
+    const normalizePost = normalize(obj, postSchema);
     // console.log(util.inspect(normalizePost,false,12,true))
-    socket.emit("mensaje", obj);
+    socket.emit("mensaje", normalizePost);
   };
   EnviarData();
 });

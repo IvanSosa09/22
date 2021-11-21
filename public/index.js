@@ -18,16 +18,16 @@ function send(e) {
 
 
 socket.on('mensaje',(data)=>{
-    render(data)
+    // render(data)
     console.log(data)
 })
 
-function render(data){
-    let html = data.map(info => {
-        return `
-            <p><img src="${info.avatar}"><strong> ${info.nombre}</strong> : ${info.mensaje}</p>
-        `
-    }).join(" ")
-    document.querySelector("#chat").innerHTML = html
-}
+// function render(data){
+//     let html = data.map(info => {
+//         return `
+//             <p><img src="${info.avatar}"><strong> ${info.nombre}</strong> : ${info.mensaje}</p>
+//         `
+//     }).join(" ")
+//     document.querySelector("#chat").innerHTML = html
+// }
 
