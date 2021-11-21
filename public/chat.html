@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+
+    <style>
+
+        #chat img{
+            width: 50px;
+            height: 50px;
+            border-radius: 150px;
+        }
+    </style>
+  </head>
+  <body>
+    <div id="chat"></div>
+
+
+    <div>
+        <form id="form">
+          <input type="text" placeholder="Email" id="email" required>
+            <input type="text" placeholder="Nombre" id="nombre" required>
+            <input type="text" placeholder="apellido" id="apellido" required>
+            <input type="number" placeholder="edad" id="edad" required>
+            <input type="text" placeholder="alias" id="alias" required>
+            <input type="text" placeholder="avatar" id="avatar" required>
+            <input type="text" placeholder="mensaje" id="mensaje" required>
+            <input type="submit">
+        </form>
+    </div>
+
+
+
+
+    <script src="/socket.io/socket.io.js"></script>
+    <script src="./index.js"></script>
+  </body>
+</html>

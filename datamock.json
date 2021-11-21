@@ -1,0 +1,52 @@
+[
+  {
+    "name": "Chicken",
+    "price": 19,
+    "image": "http://placeimg.com/640/480/business"
+  },
+  {
+    "name": "Keyboard",
+    "price": 48,
+    "image": "http://placeimg.com/640/480/sports"
+  },
+  {
+    "name": "Towels",
+    "price": 46,
+    "image": "http://placeimg.com/640/480/cats"
+  },
+  {
+    "name": "Shirt",
+    "price": 10,
+    "image": "http://placeimg.com/640/480/nightlife"
+  },
+  {
+    "name": "Keyboard",
+    "price": 48,
+    "image": "http://placeimg.com/640/480/animals"
+  },
+  {
+    "name": "Table",
+    "price": 22,
+    "image": "http://placeimg.com/640/480/business"
+  },
+  {
+    "name": "Keyboard",
+    "price": 33,
+    "image": "http://placeimg.com/640/480/cats"
+  },
+  {
+    "name": "Bike",
+    "price": 29,
+    "image": "http://placeimg.com/640/480/business"
+  },
+  {
+    "name": "Car",
+    "price": 34,
+    "image": "http://placeimg.com/640/480/animals"
+  },
+  {
+    "name": "Mouse",
+    "price": 43,
+    "image": "http://placeimg.com/640/480/transport"
+  }
+]
